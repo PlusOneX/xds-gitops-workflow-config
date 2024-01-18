@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mt-rest-api-app
-        image: 386613981817.dkr.ecr.eu-west-2.amazonaws.com/xds-gitops-repo:0e212a22250d7685ab63a7963a1c32fa2f3205c7
+        image: 386613981817.dkr.ecr.eu-west-2.amazonaws.com/xds-gitops-repo:ed5599b2d0d4767ef1fbd743b059b2774f081915
         ports:
         - containerPort: 3000
         resources:
