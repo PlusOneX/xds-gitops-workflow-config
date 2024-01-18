@@ -1,9 +1,8 @@
 replicaCount: 1
-
 image:
-  repository: nginx
+  repository: 386613981817.dkr.ecr.eu-west-2.amazonaws.com/xds-gitops-repo
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: "b9dda8cf8214cfc5f186e40166aa8ddbfe6af484"
 
 service:
   type: NodePort
@@ -13,7 +12,6 @@ resources:
   limits:
     cpu: 100m
     memory: 128Mi
-
   requests:
     cpu: 100m
     memory: 128Mi
