@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  tag: ""
+
+service:
+  type: NodePort
+  port: 3000
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+
+  requests:
+    cpu: 100m
+    memory: 128Mi
